@@ -1,0 +1,26 @@
+{
+  "name": "ultah",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "inlined-build": "vite build --config vite.config.inlined.ts",
+    "inlined-preview": "vite build --config vite.config.inlined.ts && start ./dist/index.html"
+  },
+  "dependencies": {
+    "pinia": "^2.0.32",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "rollup-plugin-polyfill-node": "^0.12.0",
+    "tailwindcss": "^3.3.1",
+    "vite": "^4.1.4",
+    "vite-plugin-singlefile": "^0.13.5"
+  }
+}
